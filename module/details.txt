@@ -1,6 +1,0 @@
-{
-    "": "\n",
-    "account": "twitter",
-    "name": "devgakuya",
-    "password": "qwerty"
-}
