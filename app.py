@@ -32,10 +32,10 @@ def delete_user_account(Credentials):
 def main():
     print("Hi, Welcome to DevPass. A safe place to storeall your credentials")
     print("What is your Username:")
-    user_name - input()
+    username - input()
     print("Please input your password:")
     user_password = input()
-    print(f"Hi { user_name } \n Your password is {user_password}")
+    print(f"Hi { username } \n Your password is {user_password}")
 
 while True:
     print("Short Codes: NEW - Create new account., VIEW - Display Account., DEL - Delete Account., EXIT - Exit DevPass.")
