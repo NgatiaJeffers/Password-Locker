@@ -1,6 +1,7 @@
 from user import Credentials
 import random
 
+
 welcome = f"""
 
 DevPass
@@ -8,7 +9,7 @@ DevPass
 User Menu:
     1. Login
     2. Create an Account
-    3. Exit the app \n
+    e. Exit the app \n
 Start:
 
 """
