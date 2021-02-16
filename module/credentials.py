@@ -9,9 +9,9 @@ def login(username, password):
     """
         Checking And Logging in a User/New User
     """
-    accounts = display_accounts()
-    for account in accounts:
-        if account['account'] == username and account['password'] == password:
+    acc = display_accounts()
+    for account in acc:
+        if account['username'] == username and account['password'] == password:
             return True
         else:
             print('**!Invalid username or password!**')

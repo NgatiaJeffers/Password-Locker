@@ -71,7 +71,9 @@ def menu():
             delete_account()
         else:
             print('Invalid Input')
-        print('------------------')
+        print('---------------')
+        user_input = input(menu_choice).lower()
+        print('---------------')
         print('**!ACCOUNT SAVED BY DEVPASS!**')
 
 def login():

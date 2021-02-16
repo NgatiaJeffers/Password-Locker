@@ -1,1 +1,1 @@
-{"": "\n", "account": "twitter", "name": "devgakua", "password": "qwerty", "jefferson": "dede", "hdjh": "fofo"}
+{"": "\n", "account": "twitter", "name": "devgakua", "password": "qwerty", "jefferson": "dede", "hdjh": "fofo", "type": "san`", "he": "nt0", "clear": "^g`\\m", "wow": "tlt"}
