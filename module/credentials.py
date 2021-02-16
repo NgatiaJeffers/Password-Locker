@@ -11,7 +11,7 @@ def login(username, password):
     """
     acc = display_accounts()
     for account in acc:
-        if account['username'] == username and account['password'] == password:
+        if account[0] == username and account[1] == password:
             return True
         else:
             print('**!Invalid username or password!**')

@@ -4,6 +4,8 @@ from module import credentials
 import pyperclip
 import random
 
+text_file = 'details.txt'
+
 file = "details.txt"
 filePath = Path("details.txt")
 if filePath.is_file():
@@ -117,7 +119,11 @@ def decode(encrypted_pass):
     return decoded_pass
 
 def display_accounts():
-    pass
+    with open(text_file, "r") as handle:
+        data = handle.read()
+        # return data
+    for accounts in data:
+        print(accounts)
 
 def delete_account():
     pass
